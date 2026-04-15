@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start" : " npx tsc && NEW_RELIC_APP_NAME=Node_Application NEW_RELIC_LICENSE_KEY=b5d775a8d5a9327f7adf157813342e93a811NRAL node -r newrelic dist/index.js",
+    "start": " npx tsc && NEW_RELIC_APP_NAME=Node_Application NEW_RELIC_LICENSE_KEY=b5d775a8d5a9327f7adf157813342e93a811NRAL node -r newrelic dist/index.js",
     "dev": ""
   },
   "keywords": [],
@@ -14,7 +14,8 @@
   "dependencies": {
     "@types/express": "^5.0.6",
     "express": "^5.2.1",
-    "newrelic": "^13.19.0"
+    "newrelic": "^13.19.0",
+    "winston": "^3.19.0"
   },
   "devDependencies": {
     "typescript": "^6.0.2"
